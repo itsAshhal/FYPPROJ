@@ -41,8 +41,8 @@ function StudentLogin() {
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>
-        <Image source={require('../../Images/hiteclogo3.png')} style={styles.logo} />
-        <Text style={{ fontSize: 25, fontFamily:'Montserrat-Bold', color: 'white', marginLeft: 12 }}>
+        <Image source={require('../../Images/hiteclogofinal.png')} style={styles.logo} />
+        <Text style={{ fontSize: 25, fontFamily:'Montserrat-Bold', color: 'white', marginLeft: devicewidth*0.05 }}>
           Hitec Universe
         </Text>
       </View>

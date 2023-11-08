@@ -4,6 +4,7 @@ import { Text, View, StyleSheet, TouchableOpacity, Alert, Image, ScrollView, Pla
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 import { StatusBar } from 'react-native';
+import TopContainer from '../Components/TopContainer';
 
 const HomeScreen = () => {
   useEffect(() => {
@@ -23,13 +24,16 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.logoContainer}>
-        <Image source={require('../../Images/hiteclogo3.png')} style={styles.logo} />
+      {/* <View style={styles.logoContainer}>
+        <Image source={require('../../Images/hiteclogofinal.png')} style={styles.logo} />
         <Text style={{ fontSize: 22, color: 'white', marginLeft: 12, fontFamily: 'Montserrat-Bold' }}>
           Hitec Universe
         </Text>
-      </View>
+      </View> */}
 
+      <View style={styles.topContainer}>
+        <TopContainer />
+      </View>
       <ScrollView>
         <View style={styles.content}>
 
@@ -164,9 +168,12 @@ const styles = StyleSheet.create({
     borderBottomLeftRadius: 60,
     // marginBottom: 20,
   },
+  topContainer:{
+    height:'20%'
+  },
   logo: {
-    width: 90,
-    height: 90,
+    width: 80,
+    height: 80,
   },
   content: {
     paddingVertical: 5,

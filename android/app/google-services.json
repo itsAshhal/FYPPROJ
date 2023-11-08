@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "903946573532",
+    "project_id": "hitecuniverse",
+    "storage_bucket": "hitecuniverse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903946573532:android:7f385fd75bc586c2cd4619",
+        "android_client_info": {
+          "package_name": "com.fypproj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqCXpK_AVX6t_jIAFRSsNY4_AwRvxlVj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
